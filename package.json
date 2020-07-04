@@ -1,0 +1,46 @@
+{
+  "name": "wakeCapWorkerTracker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/MoamenZakaria/wake-cap-worker-tracking",
+  "author": "moamen.zakaria",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node app.js",
+    "start:dev": "nodemon --exec babel-node app.js",
+    "seed": "md-seed run --dropdb",
+    "docs:generate": "./node_modules/jsdoc/jsdoc.js -c ./jsdoc.json"
+
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cronosjs": "^1.6.0",
+    "exceljs": "^4.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "lodash": "^4.17.15",
+    "log4js": "^6.3.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.20",
+    "mongoose-data-seed": "^2.1.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jsdoc": "^3.6.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "mdSeed": {
+    "seedersFolder": "./seeders"
+  }
+}
