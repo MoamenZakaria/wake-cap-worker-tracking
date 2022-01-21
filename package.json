@@ -20,7 +20,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
     "lodash": "^4.17.15",
-    "log4js": "^6.3.0",
+    "log4js": "^6.4.0",
     "moment": "^2.27.0",
     "mongoose": "^5.9.20",
     "mongoose-data-seed": "^2.1.6"
