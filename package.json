@@ -17,7 +17,7 @@
     "config": "^3.3.1",
     "cronosjs": "^1.6.0",
     "exceljs": "^4.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-validator": "^6.6.0",
     "lodash": "^4.17.15",
     "log4js": "^6.3.0",
